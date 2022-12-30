@@ -1,0 +1,12 @@
+{
+    "name": "dynamic/page",
+    "description": "This  package will create pages",
+    "authors": [
+        {
+            "name": "babar aslam",
+            "email": "babaraslam826@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
