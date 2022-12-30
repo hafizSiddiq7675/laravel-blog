@@ -1,0 +1,19 @@
+{
+    "name": "laravel/blog",
+    "description": "aaaa",
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Babar",
+            "email": "hafiz.siddiq.umer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "artesaos/seotools": "~1.0"
+    }
+}

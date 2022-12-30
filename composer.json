@@ -10,7 +10,8 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "artesaos/seotools": "^1.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -23,9 +24,10 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Devdojo\\Calculator\\": "packages/dynamic/page/src",
+            "Laravel\\BLog\\": "packages/laravel/blog/src",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Laravel\\Blog\\": "packages/laravel/blog/src"
         }
     },
     "autoload-dev": {

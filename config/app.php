@@ -175,8 +175,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        // Dynamic\Page\PageServiceProvider::class,
-        Dynamic\Page\CalculatorServiceProvider::class,
+        Laravel\Blog\BlogServiceProvider::class,
+
 
     ],
 
